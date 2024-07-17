@@ -1,0 +1,40 @@
+.greybg{
+    background-color: rgb(236, 233, 233);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.neon{
+    color: rgb(83, 184, 25);
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Bona Nova SC;
+}
+
+.spantxtc{
+    font-size: medium;
+    color: rgb(196, 0, 0);   
+    font-family:Tahoma;
+    font-weight: bold;
+}
+
+#aniVol{
+    animation-name: anivol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anivol{
+    0%{
+        font-size: xx-large;
+    }
+
+    50%{
+        font-size: x-large;
+        color:black;
+    }
+
+    100%{
+        font-size: xx-large;
+    }
+}

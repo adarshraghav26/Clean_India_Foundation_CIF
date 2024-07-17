@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(230, 253, 217);
+}
+
+.protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.volformh{
+    color:black;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "Headland One", serif;
+    animation-name: volformhead;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes volformhead{
+    from{
+        opacity: 0.5;
+    }
+
+    to{
+        opacity: 1;
+        text-shadow: 1px 1px 1px grey;
+        color: rgb(119, 0, 0);
+    }
+}
+
+.volmembg{
+    background: url(./img/volmembg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subbtn{
+    height:70px ;
+    width:130px ;
+    border-radius: 50px;
+    font-size: large;
+}
+
+.gandhi{
+    background-color: rgb(226, 240, 205);
+}
+
+.mxl{
+    margin-left: 470px;
+    font-family: Bona Nova SC;
+}
+
+.green{
+    color: rgb(14, 129, 14);
+    font-weight: bolder;
+}
+
+.mx{
+    margin-left:130px ;
+}
+
+.mxr{
+    margin-right:50px ;
+}

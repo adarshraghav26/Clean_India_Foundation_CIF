@@ -1,0 +1,15 @@
+.aboutbg{
+    background: url(./img/opacityaboutbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blue{
+    color: rgb(7, 30, 162);
+    font-family: PT Serif;
+    font-weight: 500;
+}
+
+.orange{
+    color: rgb(248, 86, 27);
+}

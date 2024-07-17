@@ -1,0 +1,313 @@
+body{
+    margin-top: 4px;
+    background-color: rgb(238, 248, 252);
+}
+
+.bgnav{
+    background-color: rgb(0, 64, 153);
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.navlist{
+    display: inline;  
+    margin: 1px;
+    padding:2px;
+}
+
+#navbg{
+    margin-top: 3px;
+}
+
+#home{
+    background-color: green;
+    color: beige;
+}
+
+#home:hover{
+    background-color:darkgreen;
+}
+
+.bg{
+    background-color: rgb(212, 212, 212);
+    color: black;
+}
+
+.bg:hover{
+    background-color: slategrey;    
+}
+
+#navheading{
+    margin-top: 15px;
+    color: white;
+    font-family: Verdana;
+    font-style: italic;
+    animation-name: headani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#imgani{
+    width: 100px;
+    height:50px;
+    margin-top: 15px;
+    margin-left: -70px;;
+    float: left;
+    border-radius: 100px;   
+}
+
+@keyframes headani {
+    0% {color:white;}
+    25%{color:antiquewhite;}
+    50%{color:wheat;}
+    75%{color:rgb(172, 171, 171);}
+    100%{color:gray;}
+}
+
+.searchbtn{
+    float: right;
+    height: 35px;
+    width: 60px;
+    font-size: small;
+    justify-content: center;
+    margin:2px;
+}
+
+.searchpos{
+    float: left;
+    margin-top: 6px;
+}
+
+.carHead{
+    color: black;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.carPar{
+    color:white;
+    font-size: x-large;
+}
+
+.slogandiv{
+    border:1px solid black;
+    background-color: rgb(255, 153, 0);
+    border-radius: 20px;
+}
+
+.txtshadow{
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#sloganhr{
+   border-top: 4px solid black;
+}
+
+#sloganbg{
+    background: url(./img/sloganbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slogantxt{
+    color:rgb(179, 13, 13);
+    font-size:larger;
+    font-weight: bold;
+}
+
+.sloganp{
+    color:black;
+}
+
+.videobg{
+    background: url(./img/videobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#videohead{
+    color: rgb(94, 91, 91);
+    font-family:Wittgenstein,sans-serif;
+    font-size:x-large;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(94, 91, 91);
+}
+
+#par{
+    color:rgb(156, 4, 4);
+    font-family:Wittgenstein,sans-serif;
+}
+
+.introcon{
+    background: url(./img/contentbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+
+#heading{
+    color: darkgreen;
+    text-shadow: 1px 1px 2px green;
+    font-family: Baskervville,sans-serif;
+    font-weight: 500;
+}
+
+.conHead{
+    color:rgb(36, 151, 196);
+    font-weight:bold ;
+    font-family:Bodoni;
+}
+
+.conBg{
+    background: url(./img/conbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    color:maroon;
+    font-size: medium;
+    font-family: Anton,sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.par{
+    color:rgb(0, 113, 183);
+    font-size: medium;
+    font-family: Oswald,sans-serif;
+    font-weight: 450;
+    padding: 8px;
+}
+
+#opbg{
+    background: url(./img/opbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conHeadSE{
+    color:rgb(250, 155, 59);
+    font-family:Kanit;
+}
+
+.conParSE{
+    color:rgb(71, 70, 70);
+    text-shadow: 1px 1px 1px rgb(160, 160, 160);
+}
+
+.hCC{
+    color:rgb(145, 229, 1);
+    font-size: xx-large;
+    font-family: Playfair Display;
+    font-weight: bold;
+}
+
+#ccbg{
+    background-color: rgb(244, 241, 241);
+}
+
+#ccp{
+    font-family: Wittgenstein,sans-serif;
+}
+
+.pad{
+    padding: 10px;
+}
+
+.transSE{
+    animation-name: transforming;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes transforming {
+    from{
+        opacity:0.5;
+        border-radius: 500px;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.ccff{
+    font-family: Bona Nova SC;
+    font-weight:500;
+}
+
+.piccap{
+    font-size:small ;
+    font-family: Tahoma, sans-serif;
+}
+
+.bgcolor{
+    background-color:rgb(244, 241, 241); ;
+}
+
+.ccpara{
+    color:rgb(137, 9, 9);
+    font-family: Libre Baskerville;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.formbg{
+    background: url(./img/formbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.footerbg{
+    background: url(./img/footerbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.txtf{
+    color: white;
+    font-family:Bona Nova SC ;
+    font-size: medium;
+}
+
+.txtf:hover{
+    color: grey;
+}
+
+.txtp{
+    color:red;
+}
+
+.txtp:hover{
+    color:beige;
+}
+
+.an{
+    text-decoration: none;
+}
+
+.spantxt{
+    font-size: small;
+    color: rgb(255, 237, 215);   
+}
+
+.sociallink{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hCCv{
+    color:rgb(67, 106, 0);
+    font-size: xx-large;
+    font-family: Playfair Display;
+    font-weight: bold;
+}
